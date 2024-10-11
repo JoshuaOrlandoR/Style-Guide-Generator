@@ -1,0 +1,177 @@
+/* Import the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+/* Global Styles */
+body {
+  background-color: #151718;
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Page Wrapper */
+.page-wrapper {
+  display: block;
+}
+
+/* Main Wrapper */
+.main-wrapper {
+  display: block;
+}
+
+/* Section */
+.section {
+  display: block;
+}
+
+/* Padding Global */
+.padding-global {
+  display: block;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* Container Large */
+.container-large {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Optional: Styling for sections (e.g., spacing between them) */
+.section + .section {
+  margin-top: 4rem;
+}
+
+/* Main Title (H1) */
+.h1-title {
+  font-weight: 800;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .h1-title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .h1-title {
+    font-size: 4rem; /* Tablet */
+  }
+}
+@media (max-width: 768px) {
+  .h1-title {
+    font-size: 3.5rem; /* Mobile Landscape */
+  }
+}
+@media (max-width: 480px) {
+  .h1-title {
+    font-size: 3rem; /* Mobile Portrait */
+  }
+}
+
+/* Main Subheader */
+.subheader {
+  font-weight: 400;
+  line-height: 140%;
+  color: #e5e5e5;
+}
+
+@media (min-width: 1024px) {
+  .subheader {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .subheader {
+    font-size: 1.25rem; /* Tablet */
+  }
+}
+@media (max-width: 768px) {
+  .subheader {
+    font-size: 1.2rem; /* Mobile Landscape */
+  }
+}
+@media (max-width: 480px) {
+  .subheader {
+    font-size: 1rem; /* Mobile Portrait */
+  }
+}
+
+/* H2 Section Titles */
+.h2-title {
+  font-weight: 700;
+  line-height: 140%;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .h2-title {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .h2-title {
+    font-size: 3rem; /* Tablet */
+  }
+}
+@media (max-width: 768px) {
+  .h2-title {
+    font-size: 3rem; /* Mobile Landscape */
+  }
+}
+@media (max-width: 480px) {
+  .h2-title {
+    font-size: 2.5rem; /* Mobile Portrait */
+  }
+}
+
+/* H3 Section Subtitles */
+.h3-subtitle {
+  font-weight: 600;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .h3-subtitle {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .h3-subtitle {
+    font-size: 2rem; /* Tablet */
+  }
+}
+@media (max-width: 768px) {
+  .h3-subtitle {
+    font-size: 2rem; /* Mobile Landscape */
+  }
+}
+@media (max-width: 480px) {
+  .h3-subtitle {
+    font-size: 1.5rem; /* Mobile Portrait */
+  }
+}
+
+/* Paragraphs */
+.paragraph {
+  font-weight: 400;
+  line-height: 140%;
+  color: #e5e5e5;
+}
+
+@media (min-width: 480px) {
+  .paragraph {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 480px) {
+  .paragraph {
+    font-size: 1rem; /* Mobile Portrait */
+  }
+}
