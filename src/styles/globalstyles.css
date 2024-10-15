@@ -45,6 +45,14 @@ body {
   margin-top: 4rem;
 }
 
+.contentBG {
+  background-color: #0a0a0a;
+}
+
+.contentRadius {
+border-radius: 15px;
+}
+
 /* Main Title (H1) */
 .h1-title {
   font-weight: 800;
@@ -173,5 +181,104 @@ body {
 @media (max-width: 480px) {
   .paragraph {
     font-size: 1rem; /* Mobile Portrait */
+  }
+}
+
+
+/* Spacer Styles */
+
+/* Spacer Small */
+.spacerSmall {
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+@media (max-width: 1023px) { /* Tablet */
+  .spacerSmall {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile Landscape */
+  .spacerSmall {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile Portrait */
+  .spacerSmall {
+    padding-top: 1rem;
+  }
+}
+
+/* Spacer Normal */
+.spacerNormal {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+@media (max-width: 1023px) { /* Tablet */
+  .spacerNormal {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile Landscape */
+  .spacerNormal {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile Portrait */
+  .spacerNormal {
+    padding-top: 1.5rem;
+  }
+}
+
+/* Spacer Large */
+.spacerLarge {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+@media (max-width: 1023px) { /* Tablet */
+  .spacerLarge {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile Landscape */
+  .spacerLarge {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile Portrait */
+  .spacerLarge {
+    padding-top: 2rem;
+  }
+}
+
+/* Spacer Huge */
+.spacerHuge {
+  width: 100%;
+  padding-top: 8rem;
+}
+
+@media (max-width: 1023px) { /* Tablet */
+  .spacerHuge {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile Landscape */
+  .spacerHuge {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile Portrait */
+  .spacerHuge {
+    padding-top: 4rem;
   }
 }

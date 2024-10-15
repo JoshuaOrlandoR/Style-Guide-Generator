@@ -1,8 +1,8 @@
 import React from 'react';
 
 // wraps the entire page content.
-function PageWrap({ children }) {
+function PageWrapper({ children }) {
   return <div className="page-wrapper">{children}</div>;
 }
 
-export default PageWrap;
+export default PageWrapper;
